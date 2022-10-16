@@ -1,25 +1,27 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - program that prints all combinations of single-digit numbers
  *
- * Return: Always 0 (Success)
+ * Return: 0
  */
 
 int main(void)
 {
-	int n;
+	int n = 48;
 
-	for (n = 0 ; n < 10 ; n++)
+	int com = 44;
+
+	while (n <= 57)
 	{
-		putchar(n + '0');
-		if (n < 9)
+		putchar(n);
+		if (n != 57)
 		{
-			putchar(',');
+			putchar(com);
 			putchar(32);
 		}
+		n += 1;
 	}
-	ptuchar('\n');
+	putchar('\n');
 	return (0);
 }
-
