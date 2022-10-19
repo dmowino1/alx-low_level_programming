@@ -3,7 +3,7 @@
  * print_alphabet - print lower case alphabet
  * Return: void
  */
-void print_alphabet (void)
+void print_alphabet(void)
 {
 	char c = 'a';
 
